@@ -1,0 +1,39 @@
+.main_wrraper{
+    width: 70%;
+    height: 450px;
+    border:1px solid #ccc;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+}
+.main_wrraper .slider{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all .5s linear;
+}
+.bottom{
+    box-sizing: border-box;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.bottom i{
+    font-size:1.8em;
+    cursor: pointer;
+}
+.bottom .next{
+    float: right;
+}
+
+.slide_item{ 
+    height: 100%;
+    float: left;
+    
+}
+.slide_item img{
+    width: 100%;
+}
